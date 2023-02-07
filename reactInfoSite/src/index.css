@@ -1,0 +1,11 @@
+* {
+    font-family: 'JetBrains Mono', sans-serif;
+    
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #282d35;
+    color: #fff;
+}

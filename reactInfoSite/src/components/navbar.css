@@ -1,0 +1,31 @@
+.nav {
+    display: flex;
+    background-color: #21222a;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 1rem .5rem 1rem;
+    box-shadow: 0 0 .5rem 0 rgba(0, 0, 0, .4);
+    color: #fff;
+
+}
+
+.rLogo {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: .75rem 0 0 .75rem;
+}
+
+.nav > div {
+    display: flex;
+    align-tracks: center;
+}
+
+.nav > div > img, h3{
+    padding-right: .75rem;
+    color: #61dafb;
+} 
+
+
+
+
+
