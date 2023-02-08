@@ -22,7 +22,7 @@ const CardBody = () => {
         </div>
         <div className='sub--containerB'>
           <h2>Interests</h2>
-          <p>I like videogames, and drawing, and one of my hobbies is tattooing.</p>
+          <p>I like videogames, drawing, and one of my favorites hobbies is tattooing.</p>
         </div>
       </div>
     </div>
