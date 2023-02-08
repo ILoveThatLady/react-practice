@@ -1,0 +1,11 @@
+*{
+  font-family: 'Inter', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #23252C;
+  color: #fff;
+  align-content: center;
+  margin: 0;
+  padding: 0;
+}

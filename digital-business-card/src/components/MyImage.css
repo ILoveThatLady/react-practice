@@ -1,0 +1,10 @@
+.img--container {
+    display: block;
+    height: 19.813rem;
+    width: 19.813rem;
+    background-image: url(../assets/me.jpeg);
+    background-size: cover;
+    background-position-y: 25%;
+    background-position-x: center;
+    border-radius: 10px 10px 0 0;
+}

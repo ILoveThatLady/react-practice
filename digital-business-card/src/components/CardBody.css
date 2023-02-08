@@ -1,0 +1,83 @@
+.body--container {
+    margin: 0;
+    text-align: center;
+    height: 24.938rem;
+    width: auto;
+    margin-top: 1.313rem;
+}
+
+.body--container > h1 {
+    margin: 0;
+}
+
+.body--container > h3 {
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin: 0 auto;
+    color: #F3BF99;
+}
+
+.body--container > a {
+    display: block;
+    text-decoration: none;
+    margin: .3rem auto 1rem;
+    color: #fff;
+    font-size: .64rem;
+}
+
+.btn--container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.btn--container > button {
+    height: 2.125rem;
+    width: 7.188rem;
+    border-style: none;
+    border-radius: 6px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    font-weight: 500;
+    font-size: .875rem;
+    padding-bottom: .1rem;
+}
+
+.btn--email {
+   background-image: url(../assets/mail.svg);
+   background-size: 12.8px 9.6px;
+   background-repeat: no-repeat;
+   background-position: 27.49% center;
+   border: 1px solid #d1d5db;
+   padding-left: 1.2rem;
+}
+
+.btn--linked {
+    background-color:#5093E2;
+    color: #fff;
+    background-image: url(../assets/linkedin.svg);
+    background-repeat: no-repeat;
+    background-position: 17.05% center;
+    padding-left: 1.5rem;
+}
+
+.content--container {
+    text-align: left;
+    padding: 2.063rem 2.313rem;
+}
+
+.sub--containerA > h2, p {
+    margin-bottom: 0;
+    margin-top: .313rem;
+}
+
+.sub--containerB > h2, p {
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 0.64rem;
+    color: #DCDCDC;
+    font-weight: 400;
+}
+
