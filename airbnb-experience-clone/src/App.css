@@ -1,0 +1,7 @@
+.main--container {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    width: 34.375rem;
+    height:  53.313rem;
+}

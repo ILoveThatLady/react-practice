@@ -1,11 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Navbar from './components/Navbar';
+import Body from './components/Body';
 
 const App = () => {
   return (
-    <div>
-      
+    <div className='main--container'>
+      <Navbar />
+      <Body />
     </div>
   )
 }
 
-export default App
+export default App;
