@@ -6,7 +6,7 @@ const Card = (props) => {
     <div id={props.myID} className='card--container'>
         <img src={props.imgCard} />
       <div className='text-card--container'>
-        <img src='./src/assets/Star.png'/>
+        <img src='.././assets/Star.png'/>
         <span>{props.rate}</span>
         <span className='text-ligth'>{props.num} •</span>
         <span className='text-ligth'>{props.country}</span>
