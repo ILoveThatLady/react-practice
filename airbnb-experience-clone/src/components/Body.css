@@ -29,6 +29,11 @@
 }
 
 .img--container {
-    
+    width: 34.375rem;
+    height: 15rem;
+    background-image: url(../assets/img-grid.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
 }
 

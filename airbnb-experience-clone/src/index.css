@@ -3,9 +3,11 @@
     padding: 0;
 }
 
-:root {
-
+:root {    
     background-color: #e5e5e5;
     font-family: 'Poppins', sans-serif;
     color: #000;
+    display: grid;
+    place-items: center;
+    
 }
