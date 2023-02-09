@@ -1,5 +1,81 @@
-.exp--container {
-    width: 34.375rem;
+.exp--containers {
+    display: flex;
+    justify-items: center;
+    margin: 0 2rem 0 2rem;
+    max-width: 34.375rem;
     height: 21.875rem;
     background-color: white;
+    padding-top: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 0 0 9px 9px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    overflow-x: scroll;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;
+}
+
+.exp--containers::-webkit-scrollbar {
+    width: 0;
+    background-color: transparent;
+}
+
+#firstCard {
+    padding-left: 2rem;
+}
+
+.card--container {
+    display: inline-block;
+    width: 11rem;
+    height: 18.875rem;
+    padding-right: 1.5rem;
+    border-radius: 9px;
+    
+}
+
+#lastCard {
+    padding-right: 2rem;
+    border-radius: 9px;
+}
+
+.card--container > img {
+    width: 11rem;
+    height: 14.688rem;
+    border-radius: 9px;
+
+}
+
+
+
+.text-card--container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: .75rem;
+}
+
+.text-card--container > p {
+    padding: 0;
+    line-height: 110%;
+    color: #222;
+    padding-top: .5rem;
+}
+
+.text-card--container > span {
+    font-size: .75rem;
+    padding-right: .2rem; 
+}
+
+.text-card--container > img {
+    width: .875rem;
+    height: .875rem;
+    padding-right: .3rem;
+}
+
+.text-ligth {
+    color: #918e9b;
+    font-weight: 300;
+}
+
+.text-title {
+    font-weight: 300;
 }

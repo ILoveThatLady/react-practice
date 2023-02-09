@@ -1,7 +1,4 @@
 .nav--container {
-    display: flex;
-    justify-content: center;
-    align-content: center;
     height: 4.375rem;
     max-width: 34.375rem;
     background-color: #fff;
