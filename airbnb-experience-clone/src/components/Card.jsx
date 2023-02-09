@@ -6,7 +6,7 @@ const Card = (props) => {
     <div id={props.myID} className='card--container'>
         <img src={props.imgCard} />
       <div className='text-card--container'>
-        <img src='.././assets/Star.png'/>
+        <img src='https://raw.githubusercontent.com/ILoveThatLady/react-practice/main/airbnb-experience-clone/src/assets/Star.png'/>
         <span>{props.rate}</span>
         <span className='text-ligth'>{props.num} •</span>
         <span className='text-ligth'>{props.country}</span>
